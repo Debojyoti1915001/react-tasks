@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route} from "react-router-dom"
-
+import Login from './login/login'
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <Routes>
           <Route exact path='/' element={
                 <>
-                  <Landing/>
+                  <>Landing</>
                 </>
               }>
             </Route>

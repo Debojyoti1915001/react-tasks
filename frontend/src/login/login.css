@@ -1,0 +1,204 @@
+*{
+    margin: 10px;
+    padding: 0;
+    font-family: 'Nunito';
+}
+.circle{
+    margin-left: -15%;
+    margin-top: -50%;
+}
+
+.login-left{
+    margin-left: 5%;
+}
+.login-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 11.64%;
+}
+.login-logo{
+    cursor: pointer;
+}
+
+.login-main h1{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 49px;
+color: #171414;
+margin-top: 24px;
+margin-bottom: 3px;
+}
+
+.login-main p{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #171414;
+opacity: 0.5;
+margin-bottom: 32px;
+}
+
+.container-checkbox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.remember p{
+    margin-left: 10px;
+}
+
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 44px;
+}
+
+.register li{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10px;
+}
+
+::placeholder{
+    opacity: 0.3;
+}
+
+.login-right form input[type=password], select {
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+
+  .login-right form input[type=email], select {
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    padding: 12px 20px;
+    margin: 4px 0 24px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+  }
+
+
+  .login-right form input[type=submit] {
+    width: 100%;
+    font-family: 'Nunito', sans-serif;
+    background: #DC3545;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0 20px 0;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  .login-right form input[type=checkbox]:checked {
+    accent-color: #DC3545; 
+    color: white;
+  }
+
+
+  .googlebtn{
+    width: 420px;
+height: 44px;
+border: 1px solid #E8E8E8;
+background-color: white;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+.googlebtn span{
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+color: #828282;
+margin-left: 13px;
+}
+
+.or{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+color: #A1A1A1;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 28px;
+margin-bottom: 28px;
+}
+
+label{
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+color: #171414;
+}
+
+.register p{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: #828282;
+
+}
+
+.register li{
+    font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+color: #DC3545;
+cursor: pointer;
+}
+
+.remember p{
+    font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+color: #A1A1A1;
+}
+
+.forget{
+    font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+color: #DC3545;
+cursor: pointer;
+}
+
+.loginbtn{
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 25px;
+cursor: pointer;
+}
+
