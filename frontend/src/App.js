@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route} from "react-router-dom"
 import Login from './login/login'
+import Dashboard from './dashboard/dashboard'
 
 function App() {
   return (
@@ -15,6 +16,11 @@ function App() {
             </Route>
             <Route path="/login" element={
               <Login/>
+            }>
+
+            </Route>
+            <Route path="/dashboard" element={
+              <Dashboard/>
             }>
 
             </Route>
