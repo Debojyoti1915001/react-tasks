@@ -1,6 +1,7 @@
 import React from 'react';
 import './dashboard.css'
 import Navbar from '../components/navbar/navbar'
+import EnhancedTable from '../components/table/table'
 const Dashboard = () => {
 
     return (
@@ -9,7 +10,9 @@ const Dashboard = () => {
                 PROGRAM
             </div>
             <Navbar />
+            <EnhancedTable />
         </>
     )
 }
 export default Dashboard
+
